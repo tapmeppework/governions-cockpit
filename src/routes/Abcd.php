@@ -1,0 +1,2 @@
+<?php
+ declare(strict_types=1); namespace tapmeppe\composer\routes; use Override; class Abcd extends \tapmeppe\composer\helpers\Route { protected function handleGet(object $parameters): array { return compact('parameters'); } protected function handlePost(object $parameters): array { return compact('parameters'); } } 

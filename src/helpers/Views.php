@@ -1,0 +1,2 @@
+<?php
+ declare(strict_types=1); namespace tapmeppe\composer\helpers; use tapmeppe\composer\blueprint\Resources; class Views { static function printHubLayout(string $position) { echo Resources::read(dirname(TAPMEPPE_FRAMEWORK, 4) . "/layout.$position.html"); } } 

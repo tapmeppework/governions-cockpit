@@ -1,0 +1,2 @@
+<?php
+ $this->helper('acl')->addPermissions([ 'governance' => [ 'manage' => 'Manage Your Addon', 'view' => 'View Your Addon Data', 'edit' => 'Edit Your Addon Settings' ] ]); if ($this->helper('acl')->hasPermission('governance/manage')) { } 
