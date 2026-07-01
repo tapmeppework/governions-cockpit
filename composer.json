@@ -1,7 +1,7 @@
 {
 	"name": "tapmeppe/governance",
 	"description": "The tapmeppe extension for the governance⚙️ tools based on Cockpit.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"type": "library",
 	"license": "GPL-3.0-or-later",
 	"homepage": "https://tapmeppe.work/solutions/governance/",
@@ -63,7 +63,7 @@
 		]
 	},
 	"tapmeppe": {
-		"timestamp": "2026-07-01T00:28:12.303Z",
+		"timestamp": "2026-07-01T18:00:05.387Z",
 		"deployment": ""
 	}
 }
